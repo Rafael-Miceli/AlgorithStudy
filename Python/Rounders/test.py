@@ -30,5 +30,8 @@ class TestProblem(unittest.TestCase):
     def test_rounder_9(self):
         self.assertEqual(problem.rounders(5), 5)
 
+    def test_rounder_10(self):
+        self.assertEqual(problem.rounders(51200), 500)
+
 if __name__ == '__main__':
     unittest.main()

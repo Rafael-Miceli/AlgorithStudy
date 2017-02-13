@@ -22,7 +22,7 @@ class TestProblem(unittest.TestCase):
         self.assertEqual(problem.rounders(99), 100)
 
     def test_rounder_7(self):
-        self.assertEqual(problem.rounders(9999), 10000)
+        self.assertEqual(problem.rounders(9999), 100)
 
     def test_rounder_8(self):
         self.assertEqual(problem.rounders(1), 1)

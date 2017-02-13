@@ -3,7 +3,7 @@ def rounders(value):
     zeros = 1
     while value > 10:            
         if value % 10 == 0:
-            value = int(value / 10)
+            value /= 10
             continue
         if value % 10 >= 5:
             value = int(value / 10)
